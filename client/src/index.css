@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .btnstyle{
+        @apply  rounded-xl h-[45px] bg-teal-400 text-white font-bold   w-[200px]
+    }
+    .item-btn{
+        @apply w-[150px] bg-teal-200 rounded-xl p-2 text-center 
+    }
+}
